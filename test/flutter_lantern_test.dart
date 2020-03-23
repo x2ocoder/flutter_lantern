@@ -16,6 +16,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await FlutterLantern.platformVersion, '42');
+    expect(await Lantern.platformVersion, '42');
   });
 }
